@@ -1,3 +1,5 @@
 This is the first text
 Some changes made
 change
+ok
+hate
