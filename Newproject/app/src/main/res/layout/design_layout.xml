@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <ImageView android:src="@drawable/ic_dehaze_black_24dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Explore"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView android:src="@drawable/ic_search_black_24dp"
+        android:layout_width="wrap_content"
+       android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#f4633e"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/popup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:onClick="showPopupmenu"
+                android:src="@drawable/ic_more_vert_black_24dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/ic_hotel_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rent room"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#f43ee2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_drive_eta_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rent vehicle"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#f4b73e"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_card_travel_black_24dp"/>
+
+            <TextView android:text="Rent services"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#bd3ef4"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_gravity="center"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_desktop_mac_black_24dp"/>
+            <TextView android:text="Rent Electro"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#f4b73e"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_if_login_173049"/>
+<TextView android:text ="login asset"
+
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#bd3ef4"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_gravity="center"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_desktop_mac_black_24dp"/>
+            <TextView android:text="Rent Electro"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clickme"
+        android:id="@+id/clickme"/>
+</LinearLayout>
